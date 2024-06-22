@@ -1,0 +1,28 @@
+.item{
+    width: 350px;
+}
+.item p{
+    margin: 6px 0px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.new_price{
+    color: blue;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.old_price{
+    color:red;
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration:line-through;
+}
+.item:hover{
+    transform:scale(1.5s);
+    transition: .6s;
+    
+}

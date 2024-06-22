@@ -1,0 +1,86 @@
+.active{
+    color: aliceblue;
+    background-color:black;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:cadetblue;
+    position: sticky;
+    top: 0%;
+}
+div .logo{
+    margin: 1rem;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+    background-image: url('logo.jpg'); 
+}
+div .logo span{
+    color: red;
+}
+.btn{
+    background-color: #EC4076;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 12px 5px 12px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}
+nav ul{
+    list-style: none;
+}
+li  {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+  }
+li a {
+    color:maroon;
+    text-decoration: none;
+}
+li a:not(.active):hover {
+    background-color: #111;
+    opacity: .7;
+    color: red;
+  }
+.dash{
+    
+    background-image: url('user.jpg');
+}
+nav .menu{
+    display: none;
+    position: absolute;
+    top: .75rem;
+    right: .5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+nav .menu span{
+    height: .4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: .2rem;
+
+
+}
+@media (max-width: 480px) {
+    nav .menu {
+        display: flex;
+    }
+}
+
+  
