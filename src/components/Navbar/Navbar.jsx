@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='logo'>
           BI<span>KE</span>
           </div>
-        <div>search bar</div>
+        <div><input className='search' type='text' placeholder='type here to search...'></input></div>
         <div className='menu'>
           <span></span>
           <span></span>

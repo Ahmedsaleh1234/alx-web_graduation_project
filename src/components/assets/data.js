@@ -3,7 +3,8 @@ import image_2 from './images/electrical_images/Untitled_1.jpeg'
 import image_3 from './images/electrical_images/Untitled_2.jpeg'
 import image_4 from './images/electrical_images/Untitled_3.jpeg'
 import image_5 from './images/electrical_images/images.jpeg'
-
+import image_6 from './ex_images/lab_3.jpeg'
+import image_7 from './images/clothes_images/Untitled.webp'
 
 let data = [{
     id : 1,
@@ -40,5 +41,17 @@ let data = [{
     new_price: 50,
     old_price: 100,
     image: image_5
+},
+{id : 1,
+name : 'mobile',
+new_price: 50,
+old_price: 100,
+image: image_6
+},{
+    id : 1,
+    name : 'mobile',
+    new_price: 50,
+    old_price: 100,
+    image: image_7
 }]
 export default data
