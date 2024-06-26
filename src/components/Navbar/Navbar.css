@@ -31,6 +31,7 @@ div .logo span{
     font-weight: bold;
 
 }
+
 .btn:hover{
     cursor: pointer;
     background-color: white;
@@ -86,6 +87,8 @@ nav .menu span{
     nav .menu {
         display: flex;
     }
+    
+    
 }
 .search{
     padding: 8px;

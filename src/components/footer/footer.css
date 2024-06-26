@@ -1,0 +1,15 @@
+
+.icon{
+    display: none;
+}
+@media(max-width:450px){.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px;
+    
+}
+.icon div{
+    cursor: pointer;
+}}

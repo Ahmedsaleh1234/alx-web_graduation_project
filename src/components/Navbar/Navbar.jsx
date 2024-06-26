@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./Navbar.css"
+import icon from '../assets/icones/cart_icon.png'
 const Navbar = () => {
   return (
     <nav>
@@ -17,9 +18,9 @@ const Navbar = () => {
             <li><NavLink to="/home"> HoMe</NavLink></li>
             <li><NavLink to="/dash" className='dashbord'>DashBoard</NavLink></li>
             <li><NavLink to="/card">
-            CarT
+            <img src={icon} alt="" />
             </NavLink></li>
-            <li><NavLink><button className='btn'>logout</button></NavLink></li>
+            <li><NavLink to='/auth'><button className='btn'>Sign Up</button></NavLink></li>
         </ul>
 
     </nav>
