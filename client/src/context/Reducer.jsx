@@ -1,9 +1,9 @@
 export const totalItem = (cart) => {
-  return cart.reduce((sum, product) => sum + product.quantity , 0)
+  return cart.reduce((sum, product) => sum + product.id , 0)
 }
 
 export const totalPrice = (cart) => {
-  return cart.reduce((total, product) => total + product.quantity * product.price , 0)
+  return cart.reduce((total, product) => total + product.id* product.new_price , 0)
 }
 
 
