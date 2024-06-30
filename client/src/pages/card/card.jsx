@@ -16,6 +16,9 @@ const Card = () => {
         <h5>Total Items: {totalItem(cart)}</h5>
         <h5>Total Price: ${totalPrice(cart)} </h5>
         <button className='btn btn-warning'>Checkout</button>
+        <button className="btn" 
+                 onClick={() => dispatch({ type: "Remove", id: cart.id })}>
+                    Remove From Cart</button>
       </div>
       <div className='populer-item'>
       {
@@ -24,9 +27,7 @@ const Card = () => {
             <Item key={i} 
                 id={item.id} name={item.name} image={item.image} 
                 new_price={item.new_price} old_price ={item.old_price} />
-                 <button className="btn" 
-                 onClick={() => dispatch({ type: "Remove", id: item.id })}>
-                    Remove From Cart</button>
+                 
           </div>
         })
 
